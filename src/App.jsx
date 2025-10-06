@@ -23,7 +23,7 @@ function Home() {
 
 export default function App() {
    return (
-      <BrowserRouter>
+      <BrowserRouter basename='/lazy-loading-react'>
          <Routes>
             <Route path='/' element={<Home />} />
             <Route
